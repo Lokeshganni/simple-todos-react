@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.main-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px 10px 10px 0;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 74%;
+    padding: 40px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #ff8542;
+  font-size: 28px;
+}

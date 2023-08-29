@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.todo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1px;
+  padding: 0 10px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-container {
+    padding: 0 50px;
+  }
+}
+
+.todo-para {
+  color: #000000;
+  font-size: 16px;
+  margin-right: auto;
+}
+
+.btn-div {
+  margin-left: auto;
+}
+
+.todo-btn {
+  color: #ff0b37;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ff0b37;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 7px 10px;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+}
